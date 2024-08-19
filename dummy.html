@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <style>
+        #centerText {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 50px;
+        font-weight: bolder;
+        transform: translate(-50%, -50%);
+        mix-blend-mode: multiply;
+        }
+        #mover {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: red;
+        position: absolute;
+        cursor: pointer;
+        transition: scale 300ms linear;
+        }
+    </style>
+</head>
+<body>
+    <div id="mover"></div>
+<div id="centerText">Hello</div>
+</body>
+</html>
